@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo HTML5 Completo</title>
+    <style>
+        .center {
+            text-align: center;/*uso da classe para centralizar o texto*/
+        }
+
+        .justificado {
+            text-align: justify;/*uso da classe para justificar o texto*/
+        }
+        #rodape{
+             text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align: center;">Título Principal Centralizado</h1>
+        <h2 style="text-align: left;">Subtítulo Nível 2 à Esquerda</h2>
+        <h3 style="text-align: right;">Subtítulo Nível 3 à Direita</h3>
+        <h4>Subtítulo Nível 4</h4>
+        <h5>Subtítulo Nível 5</h5>
+        <h6>Subtítulo Nível 6</h6>
+    </header>
+
+    <nav>
+        <p>
+            <a href="#posts">Posts</a> |
+            <a href="#lateral">Lateral</a> |
+            <a href="#rodape">Rodapé</a>
+        </p>
+    </nav>
+
+    <section id="posts">
+        <article class="post">
+            <header>
+                <h2>Meu Blog – Primeiro Post</h2>
+            </header>
+
+            <p>
+                Este parágrafo contém texto em <strong>negrito</strong>, 
+                texto em <em>itálico</em>, 
+                <span style="text-decoration: underline;">texto sublinhado com CSS</span> e 
+                <span style="text-decoration: line-through;">texto riscado com CSS</span>.
+                Também temos exemplos de texto <sub>subscrito</sub> e <sup>sobrescrito</sup>.
+            </p>
+
+            <p style="color: blue; font-size: 20px;">
+                Este parágrafo tem a cor azul e um tamanho de fonte maior para destaque.
+            </p>
+
+            <div class="center">
+                Este texto está centralizado.
+            </div>
+
+            <p class="justificado">
+                Este é um texto longo que será usado para demonstrar o alinhamento justificado. O conteúdo se estenderá por várias linhas para que o efeito do alinhamento seja claramente visível. O alinhamento justificado cria um bloco de texto com bordas retas em ambos os lados.
+                <br>
+                Esta é a continuação do texto após a quebra de linha manual, ainda dentro do mesmo parágrafo e mantendo o alinhamento justificado.
+            </p>
+        </article>
+    </section>
+
+    <aside id="lateral">
+        <h3>Conteúdo Relacionado</h3>
+        <p>Aqui você pode encontrar links, publicidade ou outras informações que complementam o conteúdo principal da página.</p>
+    </aside>
+
+    <footer id="rodape">
+        <p>© 2025 – Exemplo didático de HTML da Aula</p>
+    </footer>
+
+</body>
+</html>
